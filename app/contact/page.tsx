@@ -1,4 +1,5 @@
 import React from 'react'
+import ButtonComponent from './button';
 
 export default async function Contact() {
     console.log("Hey is this in the server or client?");
@@ -11,7 +12,7 @@ export default async function Contact() {
     
   return (
     <div>
-      Contact Page
+      <ButtonComponent/>
     </div>
   )
 }
